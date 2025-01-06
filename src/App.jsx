@@ -9,7 +9,7 @@ function App() {
   const router = createBrowserRouter([
 
     {
-      path: "", element: <Layout />, children: [
+      path: "firstReactApp", element: <Layout />, children: [
         { path: "", element: <Home /> },
         { path: "home", element: <Home /> },
         { path: "about", element: <About /> },
